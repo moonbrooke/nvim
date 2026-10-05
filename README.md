@@ -1,6 +1,6 @@
-# Simple.nvim
+# nvim
 
-Minimal Neovim config with LSP.
+Pretty minimal Neovim config with few LSPs.
 
 ### Installation
 
