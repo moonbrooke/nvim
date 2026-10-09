@@ -26,6 +26,7 @@ require("nvim-treesitter").install({
     "markdown",
     "markdown_inline",
     "python",
+    "rust",
     "scss",
     "toml",
     "tsx",
