@@ -10,13 +10,13 @@ Requirements:
 - Basic utils: `git`, `make`, `unzip`, C Compiler (`gcc`), `ripgrep`
 - If you use custom Linux setup you'll need a clipboard tool (i.e. `wl-clipboard`, `xclip`, etc.)
 - Terminal with [Nerd Fonts](https://www.nerdfonts.com/) installed.
-- LSP Setup:
+- Language setup:
+  - parser: [tree-sitter-cli](https://github.com/tree-sitter/tree-sitter)
   - runtime: [nodejs](https://nodejs.org/en)
   - html: `npm i -g vscode-langservers-extracted`
   - php (intelephense): `npm install -g intelephense`
-  - parser: [tree-sitter-cli](https://github.com/tree-sitter/tree-sitter)
-  - c: [clangd](https://clangd.llvm.org/installation.html)
   - go: [golang](https://go.dev/), [gopls](https://go.dev/gopls/#installation)
+  - c: [clangd](https://clangd.llvm.org/installation.html)
   - lua: [lua_ls](https://luals.github.io/)
   - markdown: [marksman](https://github.com/artempyanykh/marksman)
 
