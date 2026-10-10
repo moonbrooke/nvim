@@ -1,6 +1,6 @@
 # nvim
 
-Pretty minimal Neovim config with few LSPs.
+Neovim config with LSPs.
 
 ### Installation
 
@@ -8,15 +8,15 @@ Requirements:
 
 - [Neovim 0.12+](https://github.com/neovim/neovim/releases/)
 - Basic utils: `git`, `make`, `unzip`, C Compiler (`gcc`), `ripgrep`
-- Needed for LSP setup: [nodejs](https://nodejs.org/en), [golang](https://go.dev/)
-- If you use custom Linux setup you'll need a clipboard tool (ie. wl-clipboard/xclip/xsel)
-- [Nerd Fonts](https://www.nerdfonts.com/): Provides various symbols/icons
-- Language Setup:
-  - parser: [tree-sitter-cli](https://github.com/tree-sitter/tree-sitter)
-  - c: [clangd](https://clangd.llvm.org/installation.html)
-  - go: [gopls](https://go.dev/gopls/#installation)
+- If you use custom Linux setup you'll need a clipboard tool (i.e. `wl-clipboard`, `xclip`, etc.)
+- Terminal with [Nerd Fonts](https://www.nerdfonts.com/) installed.
+- LSP Setup:
+  - runtime: [nodejs](https://nodejs.org/en)
   - html: `npm i -g vscode-langservers-extracted`
   - php (intelephense): `npm install -g intelephense`
+  - parser: [tree-sitter-cli](https://github.com/tree-sitter/tree-sitter)
+  - c: [clangd](https://clangd.llvm.org/installation.html)
+  - go: [golang](https://go.dev/), [gopls](https://go.dev/gopls/#installation)
   - lua: [lua_ls](https://luals.github.io/)
   - markdown: [marksman](https://github.com/artempyanykh/marksman)
 
