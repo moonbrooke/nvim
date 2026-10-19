@@ -58,6 +58,7 @@ vim.lsp.enable({
     "clangd",
     "gopls",
     "marksman",
+    "rust_analyzer",
 })
 
 -- Load Lsp on-demand, e.g: eslint is disable by default
